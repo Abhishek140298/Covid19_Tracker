@@ -1,0 +1,36 @@
+.app_header {
+  display: flex;
+
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.app_info_box {
+  display: flex;
+}
+.left_section {
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.table_content {
+  opacity: 0.8;
+}
+
+.app_info_box {
+  margin-top: 20px;
+}
+.app_dropdown_select {
+  background-color: white;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+@media (max-width: 990px) {
+  .app_header {
+    display: flex;
+    flex-direction: column;
+  }
+  .table_content {
+    margin-top: 30px;
+  }
+}
